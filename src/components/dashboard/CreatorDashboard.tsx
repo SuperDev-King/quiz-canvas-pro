@@ -34,11 +34,11 @@ export function CreatorDashboard() {
           </p>
         </div>
         <div className="flex gap-3">
-          <Button variant="outline" onClick={() => navigate('/forms')}>
+          <Button variant="outline" onClick={() => navigate('/templates')}>
             <FileText className="h-4 w-4 mr-2" />
-            View Forms
+            Templates
           </Button>
-          <Button variant="brand" onClick={() => navigate('/forms/create')}>
+          <Button variant="brand" onClick={() => navigate('/builder/survey')}>
             <Plus className="h-4 w-4 mr-2" />
             Create New Survey
           </Button>
